@@ -1,6 +1,7 @@
 # Command-line:
-
-> python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
+```
+python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
+```
 
 input_file: mono or stereo wav file 
 block_size: STFT window size, e.g. 512, 1024, 2048, ...
