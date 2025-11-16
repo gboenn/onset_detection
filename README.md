@@ -1,4 +1,4 @@
-#Command-line:
+# Command-line:
 
 python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
 
@@ -11,11 +11,11 @@ low_freq_thresh: low frequency threshold in Hz > 0.
 high_freq_thresh: high frequency threshold in Hz
 The spectral analysis output can be filtered between low and high frequency thresholds.
 
-#Example:
+# Example:
 
 python3 onset_detect2.py example.wav 512 8000 7 0.25 1 4000
 
-#Output files:
+# Output files:
 
 onsets.txt
 
