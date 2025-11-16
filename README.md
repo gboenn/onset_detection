@@ -1,5 +1,10 @@
 <img width="1979" height="1539" alt="novelty_peaks" src="https://github.com/user-attachments/assets/5129d39e-5c4a-4dbd-bdc0-5e64373835d5" />
 
+# Dependencies:
+Prior installation of the following python packages is required:
+```
+numpy scipy matplotlib soundfile mido
+```
 
 # Command-line:
 ```
