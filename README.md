@@ -3,7 +3,7 @@
 python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
 ```
 
-input_file: mono or stereo wav file 
+input_file: uncompressed mono or stereo audio file in WAVE file format
 
 block_size: STFT window size, e.g. 512, 1024, 2048, ...
 
