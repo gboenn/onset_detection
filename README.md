@@ -1,6 +1,6 @@
 # Command-line:
 
-python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
+> python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
 
 input_file: mono or stereo wav file 
 block_size: STFT window size, e.g. 512, 1024, 2048, ...
@@ -13,27 +13,27 @@ The spectral analysis output can be filtered between low and high frequency thre
 
 # Example:
 
-python3 onset_detect2.py example.wav 512 8000 7 0.25 1 4000
+> python3 onset_detect2.py example.wav 512 8000 7 0.25 1 4000
 
 # Output files:
 
-onsets.txt
+> onsets.txt
 
 list of all detected onsets in seconds
 
-novelty_peaks.png
+> novelty_peaks.png
 
 plot of the spectrogram and a series of stages that are part the onset detection process
 
-detected_clicks.wav
+> detected_clicks.wav
 
 audio click track of the onsets at -6dB
 
-frequency_tones.wav
+> frequency_tones.wav
 
 synthesized tones of the strongest peaks in the aaudio spectrum at the onset time
 
-frequency_tones.mid
+> frequency_tones.mid
 
 same as frequency_tones.wav but as a MIDI file
 
