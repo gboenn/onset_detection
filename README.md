@@ -1,3 +1,6 @@
+<img width="1979" height="1539" alt="novelty_peaks" src="https://github.com/user-attachments/assets/5129d39e-5c4a-4dbd-bdc0-5e64373835d5" />
+
+
 # Command-line:
 ```
 python onset_detector.py input_file block_size C avg_window peak_thresh low_freq_thresh high_freq_thresh
