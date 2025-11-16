@@ -31,12 +31,11 @@ audio click track of the onsets at -6dB
 
 > frequency_tones.wav
 
-synthesized tones of the strongest peaks in the aaudio spectrum at the onset time
+synthesized tones of the strongest peaks in the audio spectrum at the time of onset
 
 > frequency_tones.mid
 
-same as frequency_tones.wav but as a MIDI file
-
+same as frequency_tones.wav with MIDI notes for each spectral peak
 
 
 
