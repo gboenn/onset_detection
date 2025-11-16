@@ -50,6 +50,9 @@ synthesized tones of the strongest peaks in the audio spectrum at the time of on
 
 same as frequency_tones.wav with MIDI notes for each spectral peak
 
+# Reference:
+P. Grosche and M. Müller, "Computing predominant local periodicity information in music recordings," 2009 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, New Paltz, NY, USA, 2009, pp. 33-36, doi: 10.1109/ASPAA.2009.5346544. 
+
 
 
 
