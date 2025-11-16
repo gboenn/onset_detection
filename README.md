@@ -5,17 +5,17 @@ python onset_detector.py input_file block_size C avg_window peak_thresh low_freq
 
 **input_file:** uncompressed mono or stereo audio file in WAVE file format
 
-block_size: STFT window size, e.g. 512, 1024, 2048, ...
+**block_size:** STFT window size, e.g. 512, 1024, 2048, ...
 
-C: compression factor, typical values are 5000 or higher
+**C:** compression factor, typical values are 5000 or higher
 
-avg_window: number of windows to average over, typically a small integer like 3 - 7 windows
+**avg_window:** number of windows to average over, typically a small integer like 3 - 7 windows
 
-peak_thresh: a threshold percentage for peak picking, e.g. 0.25 
+**peak_thresh:** a threshold percentage for peak picking, e.g. 0.25 
 
-low_freq_thresh: low frequency threshold in Hz > 0. 
+**low_freq_thresh:** low frequency threshold in Hz > 0. 
 
-high_freq_thresh: high frequency threshold in Hz
+**high_freq_thresh:** high frequency threshold in Hz
 
 The spectral analysis output can be filtered between low and high frequency thresholds.
 
