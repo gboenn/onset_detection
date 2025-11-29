@@ -23,7 +23,7 @@ def analyze_novelty_with_peaks(input_file, block_size=1024, C=1000,
 
     # STFT parameters
     window = np.hanning(block_size)
-    hop_size = block_size // 2
+    hop_size = block_size // 3
     n_blocks = (len(audio_mono) - block_size) // hop_size + 1
     
     # Generate frequency edges
